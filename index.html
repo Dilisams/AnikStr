@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+ 
+    <link rel="stylesheet" href="styles.css">
+ 
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <script src="scripts.js"></script>
+
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <div class="container">
+        
+        <nav id="header">
+            <div class="nav-logo">
+                <a href="#" class="nav-name"><img src="/media/logo.png" alt=""></a>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Contents Showcase</a>
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="#contact" class="btn">Book For Promotion<i class="uil uil-file-alt"></i></a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <main class="wrapper">
+          
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>NikoLee Abubakar Sadeek.</span>
+                    </div>
+                    <div class="featured-name">
+                        <p style="color: rgb(160, 27, 3);">I'm a <span class="typedText">multifaceted influencer</span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>With Over <span class="num"> 3.5 Million</span> Followers Across My Social Media Platforms
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <a href="#contact" class="btn">Book For Promotion<i class="uil uil-file-alt"></i></a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        
+                        <div class="icon"><i class="fa-brands fa-tiktok"></i></div>
+                        
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="/media/anik.png" alt="avatar">
+                    </div>
+                </div>
+                
+                </div>
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                                frameworks and libraries,which allows me to implement interactive features.
+                                Additionally, I have experirence working with content management systems (CMS) like
+                                WordPress.
+                            </p>
+                            
+                            <div class="about-btn">
+                                <a href="" class="btn">See More<i class="uil uil-import"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                  
+            </section>
+<!-- CONTENTS  -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Contents</h1>
+                </div>
+                <div class="project-container">
+                    
+                    <video autoplay muted controls loop  height="600px" width="400px" src="/media/video1.mp4"></video>
+
+                    <video autoplay muted controls loop height="600px" width="400px" src="/media/video4.mp4"></video>
+
+                    <video autoplay muted controls loop  height="600px" width="400px" src="/media/video3.mp4"></video>
+              
+                    
+                    <a lin src="https://www.tiktok.com/@a_nik_star3?_t=8kTlBNr7EYP&_r=1" href="#" >See More</a>
+                        
+                    
+                </div>
+            </section>
+            <!-- -------------- CONTACT BOX ---------------- -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Book Now!!!!</h1>
+                    <span>Do you have a product you want to promote!!! Contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: anikstar@gmail.com</p>
+                            <!-- <p><i class="uil uil-phone"></i></p> -->
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Name">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Anik Star</p>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+
+                <div class="icon"><i class="fa-brands fa-tiktok"></i></div>
+            <div class="bottom-footer">
+                <p>Copyright © <a href="#home" style="text-decoration: none;">Anik Star</a> - All rights reserved
+                </p>
+            </div>
+        </footer>
+    </div>
+   
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+   
+    
+    
+</body>
+
+</html>
